@@ -116,3 +116,7 @@ git commit -m "Initial commit: ML portfolio project scaffold"
 git remote add origin https://github.com/<your-username>/<your-repo-name>.git
 git branch -M main
 git push -u origin main
+
+git add README.md
+git commit -m "Update README with latest changes"
+git push
