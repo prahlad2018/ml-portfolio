@@ -96,3 +96,23 @@ export MLFLOW_TRACKING_URI=http://localhost:5000
 ```
 
 Artifacts and runs are persisted under `docker/mlflow/`.
+
+
+Below are steps which followed to create this Git Repository - 
+Step 1: Create repo on GitHub
+Go to https://github.com/new
+Enter a repository name (e.g., ml-portfolio)
+Choose Public or Private
+Do not check “Initialize with README” (since you already have files locally)
+Click Create repository
+GitHub will now show you instructions with a URL like:
+https://github.com/<your-username>/ml-portfolio.git
+
+Step2:
+cd ml-portfolio
+git init
+git add .
+git commit -m "Initial commit: ML portfolio project scaffold"
+git remote add origin https://github.com/<your-username>/<your-repo-name>.git
+git branch -M main
+git push -u origin main
