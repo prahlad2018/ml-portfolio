@@ -1,0 +1,11 @@
+# Optional deep-learning extras
+# Choose one of the following depending on your platform/GPU support:
+# CPU-only:
+torch==2.4.1; platform_system != "Darwin"  # adjust as needed
+tensorflow==2.16.1
+# macOS Apple Silicon users may prefer:
+# tensorflow-macos
+# tensorflow-metal
+
+# Logging/experiments
+mlflow>=2.14.0

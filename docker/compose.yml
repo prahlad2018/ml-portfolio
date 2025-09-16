@@ -1,0 +1,6 @@
+services:
+  ml-portfolio:
+    build: ..
+    volumes:
+      - ../:/app
+    command: bash -lc "pytest -q"

@@ -1,0 +1,18 @@
+seed: 42
+paths:
+  data_dir: data
+  models_dir: models/final
+  experiments_dir: experiments
+dataset:
+  name: "sample"
+  target: "y"
+  test_size: 0.2
+  stratify: true
+model:
+  name: "logreg"
+  params:
+    C: 1.0
+    max_iter: 1000
+train:
+  scoring: "roc_auc"
+  cv_folds: 5

@@ -1,0 +1,8 @@
+stages:
+  preprocess:
+    cmd: python scripts/preprocess.py
+    deps:
+      - scripts/preprocess.py
+      - data/processed/sample.csv
+    outs:
+      - data/processed/sample_features.csv

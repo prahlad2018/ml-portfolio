@@ -1,0 +1,4 @@
+name: logreg
+params:
+  C: 1.0
+  max_iter: 1000

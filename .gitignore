@@ -1,0 +1,20 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# data & models
+data/**/*
+!data/README.md
+models/
+experiments/runs/
+experiments/reports/
+mlruns/
+
+# notebooks
+.ipynb_checkpoints/
+
+# OS/IDE
+.DS_Store
+.vscode/

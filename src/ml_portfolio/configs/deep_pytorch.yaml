@@ -1,0 +1,21 @@
+seed: 42
+paths:
+  data_dir: data
+  experiments_dir: experiments
+  models_dir: models/final
+dataset:
+  target: "y"
+  test_size: 0.2
+  stratify: true
+train:
+  epochs: 20
+  batch_size: 16
+  lr: 1e-3
+  hidden_dims: [32, 16]
+  weight_decay: 0.0
+  val_split: 0.2
+  scoring: "roc_auc"
+mlflow:
+  enabled: true
+  experiment: "ml-portfolio-pytorch"
+  run_name: "pt_mlp"

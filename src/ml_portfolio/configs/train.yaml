@@ -1,0 +1,2 @@
+scoring: roc_auc
+cv_folds: 5
